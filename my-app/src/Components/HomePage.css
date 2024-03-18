@@ -1,0 +1,242 @@
+body{
+  overflow-x: hidden;
+  
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.activeVolunteersFrame{
+    color: white;
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 170px;
+    min-height: 503px;
+}
+.image1Icon {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .freezingText {
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    padding-left: 80px;
+    font-family: "https://fonts.googleapis.com/css?family=Castoro";
+  }
+  .livesSaved {
+    font-size: 30px;
+    font-weight: 300;
+    padding-left: 78px;
+  }
+  .flashfloodAlertFrame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .million {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 120px);
+    font-size: 50px;
+    font-weight: 400;
+    font-family: "https://fonts.googleapis.com/css?family=Castoro";
+  }
+  .donationCollected {
+    position: absolute;
+    top: 60px;
+    left: calc(50% - 118px);
+    font-size:30px;
+    font-weight: 300;
+  }
+  .flashfloodAlertFrame1 {
+    height: 130px;
+    width: 280px;
+    position: relative;
+  }
+  .div {
+    height: 83px;
+    position: relative;
+    display: inline-block;
+    font-size: 50px;
+    font-family: "https://fonts.googleapis.com/css?family=Castoro";
+  }
+  .activeVolunteers {
+    position: absolute;
+    bottom: 0;
+    font-size: 30px;
+    font-weight: 300;
+    top: 60px;
+  }
+  .flashfloodAlertFrame2,
+  .rectangleFrame {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .flashfloodAlertFrame2 {
+    width: 304px;
+    justify-content: center;
+    padding-right: 80px;
+    position: relative;
+  }
+  .rectangleFrame {
+    flex: 1;
+    justify-content: space-between;
+    padding: 0 var(--padding-31xl) 0 0;
+    max-width: 100%;
+    gap: var(--gap-xl);
+    z-index: 1;
+  }
+  .activeVolunteersFrame,
+  .volunteerNowGroupChild {
+    position: relative;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .volunteerNowGroupChild {
+    height: 84px;
+    width: 783px;
+    border-radius: var(--br-141xl);
+    background-color: var(--color-white);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-gray-300);
+    display: none;
+  }
+  .search,
+  .siteMapFrame {
+    position: relative;
+    z-index: 1;
+  }
+  .search {
+    width: 70px;
+    border: 0;
+    outline: 0;
+    font-family: var(--font-cabin);
+    font-size: 20px;
+    background-color: transparent;
+    height: 29px;
+    color: #00000080;
+    text-align: left;
+    display: inline-block;
+    padding-left: 10px 50px 10px 50px;
+  }
+  .siteMapFrame {
+    height: 25.2px;
+    width: 25.2px;
+  }
+  .volunteerNowGroup {
+    width: 783px;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid gray;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px 15px 40px;
+    /* gap: var(--gap-xl); */
+    max-width: 100%;
+    z-index: 1;
+    margin-top: -42px;
+  }
+  .millionDonationCollectedFra {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-47xl);
+    color: var(--color-white);
+    font-family: var(--font-castoro);
+  }
+  @media screen and (max-width: 1125px) {
+    .rectangleFrame {
+      padding-right: var(--padding-6xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .freezingText {
+      font-size: var(--font-size-34xl);
+    }
+    .livesSaved {
+      font-size: var(--font-size-13xl);
+    }
+    .million {
+      font-size: var(--font-size-34xl);
+    }
+    .donationCollected {
+      font-size: var(--font-size-13xl);
+    }
+    .div {
+      font-size: var(--font-size-34xl);
+    }
+    .activeVolunteers {
+      font-size: var(--font-size-13xl);
+    }
+    .rectangleFrame {
+      flex-wrap: wrap;
+    }
+    .volunteerNowGroup {
+      padding-left: var(--padding-11xl);
+      padding-right: var(--padding-8xl);
+      box-sizing: border-box;
+      width: calc(100% - 40px);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .activeVolunteersFrame {
+      padding-left: var(--padding-13xl);
+      padding-right: var(--padding-13xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .freezingText {
+      font-size: var(--font-size-21xl);
+    }
+    .livesSaved {
+      font-size: var(--font-size-5xl);
+    }
+    .million {
+      font-size: var(--font-size-21xl);
+    }
+    .donationCollected {
+      font-size: var(--font-size-5xl);
+    }
+    .div {
+      font-size: var(--font-size-21xl);
+    }
+    .activeVolunteers {
+      font-size: var(--font-size-5xl);
+    }
+    .activeVolunteersFrame {
+      padding-top: var(--padding-88xl);
+      padding-bottom: var(--padding-88xl);
+      box-sizing: border-box;
+    }
+    .search {
+      font-size: var(--font-size-lgi);
+    }
+  }
+  

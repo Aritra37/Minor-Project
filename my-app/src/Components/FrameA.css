@@ -1,0 +1,231 @@
+.currentDisasters {
+  text-align: left;
+  margin-top: 40px;
+  margin-left: 60px;
+    font-size: 25px;
+    font-weight: 600;
+    max-width: 100%;
+  }
+  .frameHChild {
+    width: 400px;
+    /* display: none; */
+    max-width: 100%;
+  }
+  .frameHChild {
+    height: 200px;
+    border-radius: 3px;
+    cursor: pointer;
+    /* object-fit: cover; */
+  }
+  .nepalEarthquake {
+    /* position: relative; */
+    font-weight: 600;
+    z-index: 3;
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+    position: absolute;
+    /* text-align: center; */
+    width: 400px;
+  }
+  .rectangleL {
+    position: absolute;
+    height: 55px;
+  }
+  .rectangleL {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0px 0px 15px 15px;
+    background-color: black;
+    border: black;
+  }
+  .nepalEarthquake1 {
+    /* top: calc(50% - 21.5px); */
+    /* left: calc(50% - 133px); */
+    left: 0;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .nepalEarthquakeParent,
+  .rectangleParent {
+    /* flex: 1; */
+    display: flex;
+    /* flex-direction: row; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    max-width: 100%;
+    left: 0;
+  }
+  .nepalEarthquakeParent {
+    box-sizing: border-box;
+    position: relative;
+    left: 0px;
+    z-index: 3;
+  }
+  /* .rectangleParent {
+    border-radius: 3px;
+    background-color: var(--color-gray-400);
+    z-index: 3;
+  } */
+  .frameH {
+    /* display: flex; */
+    /* flex-direction: column; */
+    height: 190px;
+    width: 200px;
+    display: flex;
+    border-radius: 3px;
+    padding-top: 40px;
+    position: relative;
+    /* background-image: url("./Rectangle5.png"); */
+    max-width: 100%;
+    
+  }
+  .frameH {
+    /* align-self: stretch; */
+    /* display: flex; */
+    /* align-items: flex-end; */
+    /* justify-content: center; */
+    position: relative;
+    /* background-image: url(./Rectangle2.png); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: top; */
+    height: 150px;
+    width: 300px;
+  }
+  .groupG{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    
+  }
+  .groupG {
+    /* flex: 1; */
+    gap: 38px 0;
+    margin-left: 105px;
+    max-height: 1000px;
+  }
+  .currinfo{
+    /* float: left; */
+       position: absolute;
+       left: 0px;
+       /* top: 0px; */
+       bottom: 0;
+       z-index: 1000;
+       color: #FFFFFF;
+       padding-top: 5px;
+       width: 300px;
+       text-align: center;
+       cursor: pointer;
+  }
+  .currInfo2{
+    /* float: left; */
+       position: absolute;
+       left: 0px;
+       /* top: 0px; */
+       z-index: 1000;
+       color: #FFFFFF;
+       width: 300px;
+       padding-top: 8px;
+       font-weight: 500;
+       font-size: 16px;
+  }
+  @media screen and (max-width: 1125px) {
+    .textU {
+      padding-left: var(--padding-12xl);
+      padding-right: var(--padding-10xl);
+      box-sizing: border-box;
+    }
+    .frameB {
+      gap: 79px 0;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .currentDisasters {
+      font-size: var(--font-size-13xl);
+    }
+    .australiaForestfire,
+    .kedarnathFlashflood,
+    .nepalEarthquake,
+    .nepalEarthquake1 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      font-size: 10px;
+      font-weight: 500;
+    }
+    .groupR {
+      min-height: auto;
+    }
+    .textF {
+      flex-wrap: wrap;
+    }
+    .earlyWarningSystem {
+      font-size: var(--font-size-13xl);
+    }
+    .coastalFloodWarning {
+      font-size: var(--font-size-5xl);
+    }
+    .textFrame1 {
+      min-width: 100%;
+    }
+    .successStories {
+      font-size: var(--font-size-13xl);
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .groupG {
+      gap: 38px 0;
+    }
+    .textF {
+      gap: 0 50px;
+    }
+    .frameC {
+      gap: 34px 0;
+    }
+    .textU {
+      gap: 43px 0;
+      padding-top: var(--padding-13xl);
+      padding-bottom: var(--padding-19xl);
+      box-sizing: border-box;
+    }
+    .frameB {
+      gap: 79px 0;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .currentDisasters {
+      font-size: var(--font-size-5xl);
+    }
+    .kedarnathFlashflood,
+    .nepalEarthquake,
+    .nepalEarthquake1 {
+      font-size: var(--font-size-2xl);
+    }
+    .groupG {
+      min-width: 100%;
+    }
+    .australiaForestfire {
+      font-size: var(--font-size-2xl);
+    }
+    .groupR {
+      min-width: 100%;
+    }
+    .earlyWarningSystem {
+      font-size: var(--font-size-5xl);
+    }
+    .coastalFloodWarning {
+      font-size: var(--font-size-lg);
+    }
+    .successStories {
+      font-size: var(--font-size-5xl);
+    }
+  }
+  .currDisaster{
+    display: flex;
+    margin-left: 50px;
+  }
