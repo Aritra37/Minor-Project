@@ -1,0 +1,109 @@
+.applyForAssistanceText{
+    background-color: #004054;
+        justify-content: space-between;
+        padding: 10px 20px 10px 20px;
+        box-sizing: border-box;
+        top: 0;
+        z-index: 99;
+        position: sticky;
+        gap: var(--gap-xl);
+        text-align: left;
+        color: white;
+        padding-right: 50px;
+}
+.applyForAssistanceTextChild {
+    height: 75px;
+    width: 1280px;
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .imageIcon {
+    height: 33px;
+    width: 51.8px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .disasterAssistance {
+    white-space: nowrap;
+  }
+  .aboutUs,
+  .disasterAssistance,
+  .maps {
+    position: relative;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .aboutUs {
+    white-space: nowrap;
+  }
+  .nepalEarthquakeFrameGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .australiaForestfireFrameChild {
+    height: 40px;
+    width: 200px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #FFFFFF1C;
+    display: none;
+  }
+  .applyForAssistance {
+    position: relative;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: var(--font-raleway);
+    color: white;
+    text-align: left;
+    z-index: 2;
+  }
+  .australiaForestfireFrame {
+    cursor: pointer;
+    border: 0;
+    padding: 0px 20px 5px 20px;
+    background-color: #FFFFFF1C;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .australiaForestfireFrame:hover {
+    background-color: gainsboro;
+    color: black;
+  }
+  .applyForAssistanceText,
+  .searchText {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 100%;
+  }
+  .searchText {
+    justify-content: flex-start;
+    gap: 0 35px;
+  }
+ 
+  @media screen and (max-width: 1050px) {
+    .searchText {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .applyForAssistanceText {
+      padding-right: var(--padding-3xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .searchText {
+      gap: 0 35px;
+    }
+  }
