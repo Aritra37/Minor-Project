@@ -6,12 +6,12 @@
     font-weight: 600;
     max-width: 100%;
   }
-  .frameHChild {
+  .currHChild {
     width: 400px;
     /* display: none; */
     max-width: 100%;
   }
-  .frameHChild {
+  .currHChild {
     height: 200px;
     border-radius: 3px;
     cursor: pointer;
@@ -20,7 +20,7 @@
   .nepalEarthquake {
     /* position: relative; */
     font-weight: 600;
-    z-index: 3;
+    /* z-index: 1; */
     color: white;
     text-align: center;
     margin-top: 12px;
@@ -28,11 +28,11 @@
     /* text-align: center; */
     width: 400px;
   }
-  .rectangleL {
+  .currRectangleL {
     position: absolute;
     height: 55px;
   }
-  .rectangleL {
+  .currRectangleL {
     top: 0;
     right: 0;
     bottom: 0;
@@ -49,7 +49,7 @@
     z-index: 1;
   }
   .nepalEarthquakeParent,
-  .rectangleParent {
+  .currRectangleParent {
     /* flex: 1; */
     display: flex;
     /* flex-direction: row; */
@@ -64,12 +64,12 @@
     left: 0px;
     z-index: 3;
   }
-  /* .rectangleParent {
+  /* .currRectangleParent {
     border-radius: 3px;
     background-color: var(--color-gray-400);
     z-index: 3;
   } */
-  .frameH {
+  .currH {
     /* display: flex; */
     /* flex-direction: column; */
     height: 190px;
@@ -78,24 +78,24 @@
     border-radius: 3px;
     padding-top: 40px;
     position: relative;
-    /* background-image: url("./Rectangle5.png"); */
+    /* background-image: url("./currRectangle5.png"); */
     max-width: 100%;
     
   }
-  .frameH {
+  .currH {
     /* align-self: stretch; */
     /* display: flex; */
     /* align-items: flex-end; */
     /* justify-content: center; */
     position: relative;
-    /* background-image: url(./Rectangle2.png); */
+    /* background-image: url(./currRectangle2.png); */
     /* background-size: cover; */
     /* background-repeat: no-repeat; */
     /* background-position: top; */
     height: 150px;
     width: 300px;
   }
-  .groupG{
+  .currG{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -103,7 +103,7 @@
     max-width: 100%;
     
   }
-  .groupG {
+  .currG {
     /* flex: 1; */
     gap: 38px 0;
     margin-left: 105px;
@@ -115,7 +115,7 @@
        left: 0px;
        /* top: 0px; */
        bottom: 0;
-       z-index: 1000;
+       /* z-index: 1000; */
        color: #FFFFFF;
        padding-top: 5px;
        width: 300px;
@@ -127,7 +127,7 @@
        position: absolute;
        left: 0px;
        /* top: 0px; */
-       z-index: 1000;
+       z-index: 1;
        color: #FFFFFF;
        width: 300px;
        padding-top: 8px;
@@ -140,7 +140,7 @@
       padding-right: var(--padding-10xl);
       box-sizing: border-box;
     }
-    .frameB {
+    .currB {
       gap: 79px 0;
     }
   }
@@ -158,7 +158,7 @@
       font-size: 10px;
       font-weight: 500;
     }
-    .groupR {
+    .currR {
       min-height: auto;
     }
     .textF {
@@ -170,7 +170,7 @@
     .coastalFloodWarning {
       font-size: var(--font-size-5xl);
     }
-    .textFrame1 {
+    .textcurr1 {
       min-width: 100%;
     }
     .successStories {
@@ -178,13 +178,13 @@
     }
   }
   @media screen and (max-width: 750px) {
-    .groupG {
+    .currG {
       gap: 38px 0;
     }
     .textF {
       gap: 0 50px;
     }
-    .frameC {
+    .currC {
       gap: 34px 0;
     }
     .textU {
@@ -193,7 +193,7 @@
       padding-bottom: var(--padding-19xl);
       box-sizing: border-box;
     }
-    .frameB {
+    .currB {
       gap: 79px 0;
     }
   }
@@ -206,13 +206,13 @@
     .nepalEarthquake1 {
       font-size: var(--font-size-2xl);
     }
-    .groupG {
+    .currG {
       min-width: 100%;
     }
     .australiaForestfire {
       font-size: var(--font-size-2xl);
     }
-    .groupR {
+    .currR {
       min-width: 100%;
     }
     .earlyWarningSystem {

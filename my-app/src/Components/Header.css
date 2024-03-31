@@ -4,7 +4,7 @@
         padding: 10px 20px 10px 20px;
         box-sizing: border-box;
         top: 0;
-        z-index: 99;
+        z-index: 1000;
         position: sticky;
         gap: var(--gap-xl);
         text-align: left;
@@ -24,7 +24,7 @@
     position: relative;
     overflow: hidden;
     flex-shrink: 0;
-    z-index: 1;
+    z-index: 1000;
   }
   .disasterAssistance {
     white-space: nowrap;
@@ -34,7 +34,7 @@
   .maps {
     position: relative;
     font-weight: 500;
-    z-index: 1;
+    z-index: 1000;
   }
   .aboutUs {
     white-space: nowrap;
@@ -60,7 +60,7 @@
     font-family: var(--font-raleway);
     color: white;
     text-align: left;
-    z-index: 2;
+    z-index: 20;
   }
   .australiaForestfireFrame {
     cursor: pointer;
@@ -73,7 +73,7 @@
     align-items: center;
     justify-content: center;
     white-space: nowrap;
-    z-index: 1;
+    z-index: 10;
   }
   .australiaForestfireFrame:hover {
     background-color: gainsboro;

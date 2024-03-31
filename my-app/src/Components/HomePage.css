@@ -1,6 +1,5 @@
 body{
   overflow-x: hidden;
-  
 }
 ::-webkit-scrollbar {
   display: none;
@@ -83,7 +82,7 @@ body{
     top: 60px;
   }
   .flashfloodAlertFrame2,
-  .rectangleFrame {
+  .millionRectangleFrame {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -95,7 +94,7 @@ body{
     padding-right: 80px;
     position: relative;
   }
-  .rectangleFrame {
+  .millionRectangleFrame {
     flex: 1;
     justify-content: space-between;
     padding: 0 var(--padding-31xl) 0 0;
@@ -169,8 +168,11 @@ body{
     color: var(--color-white);
     font-family: var(--font-castoro);
   }
+  .liveNews{
+    padding-top: 70px;
+  }
   @media screen and (max-width: 1125px) {
-    .rectangleFrame {
+    .millionRectangleFrame {
       padding-right: var(--padding-6xl);
       box-sizing: border-box;
     }
@@ -194,7 +196,7 @@ body{
     .activeVolunteers {
       font-size: var(--font-size-13xl);
     }
-    .rectangleFrame {
+    .millionRectangleFrame {
       flex-wrap: wrap;
     }
     .volunteerNowGroup {
