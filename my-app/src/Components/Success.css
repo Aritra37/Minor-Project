@@ -1,0 +1,137 @@
+.loremForestfire,
+.loremIpsumDolor {
+  height: 41px;
+  position: relative;
+  display: inline-block;
+}
+.loremForestfire{
+    margin-right: 115px;
+    font-size: 25px;
+}
+.loremForestfireEven{
+    height: 41px;
+    position: relative;
+    display: inline-block;
+    margin-right: 215px;
+    width: 200px;
+    font-size: 25px;
+}
+.loremIpsumDolor {
+  height: 180px;
+  width: 300px;
+  flex-shrink: 0;
+  max-width: 100%;
+  margin-left: 300px;
+  font-size: 20px;
+}
+.loremIpsumDolorEven{
+    height: 41px;
+    position: relative;
+    display: inline-block;
+    height: 180px;
+    width: 300px;
+    flex-shrink: 0;
+    max-width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+.currentDisaster,
+.groupFrame,
+.successtextFrame1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.currentDisaster {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  text-align: right;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-cabin);
+}
+.groupFrame,
+.successtextFrame1 {
+  flex-direction: column;
+}
+.groupFrame {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-smi);
+}
+.successtextFrame1 {
+  flex: 1;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-6xs);
+  box-sizing: border-box;
+  min-width: 350px;
+}
+.helpingHandFrameChild {
+  height: 200px;
+  width: 300px;
+  margin-right: 10%;
+}
+.evenImage{
+    margin-left: 300px;
+}
+
+.successtextFrame {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.helpingHandFrame{
+    display: flex;
+}
+.helpingHandFrame {
+  flex: 1;
+  align-items: center;
+  gap: var(--gap-26xl);
+}
+.successtextFrame {
+  width: 1126px;
+  height: 200px;
+  align-items: flex-start;
+  /* padding: 0 0 0 var(--padding-7xl); */
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-16xl);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+  margin-top: 50px;
+  margin-bottom: 100px;
+  display: flex;
+}
+@media screen and (max-width: 1050px) {
+  .loremForestfire {
+    font-size: var(--font-size-9xl);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-5xl);
+  }
+  .helpingHandFrameChild {
+    flex: 1;
+  }
+  .helpingHandFrame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .helpingHandFrame {
+    gap: 45px 22px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .loremForestfire {
+    font-size: var(--font-size-2xl);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-lg);
+  }
+  .successtextFrame1 {
+    min-width: 100%;
+  }
+}
