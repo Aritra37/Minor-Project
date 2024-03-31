@@ -1,0 +1,202 @@
+/* .FloodAlert,
+.txtFrameGroupChild {
+  height: 50px;
+  position: relative;
+  z-index: 1;
+}
+.txtFrameGroupChild {
+  width: 50px;
+}
+.flashFloodAlert {
+  align-self: stretch;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.txtFrame,
+.txtFrameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.txtFrame {
+  flex: 1;
+  flex-direction: column;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+  min-width: 606px;
+}
+.txtFrameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 25px;
+}
+.blueFrameChild {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 1;
+}
+.severeThunderstormWatch {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameAlertGroup,
+.blueFrame,
+.txtFrame1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.txtFrame1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 606px;
+}
+.frameAlertGroup,
+.blueFrame {
+  align-self: stretch;
+}
+.blueFrame {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 25px;
+}
+.frameAlertGroup {
+  flex-direction: column;
+  gap: 5px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family: var(--font-cabin);
+}
+@media screen and (max-width: 1050px) {
+  .flashFloodAlert {
+    font-size: 10px;
+  }
+  .txtFrame {
+    min-width: 100%;
+  }
+  .severeThunderstormWatch {
+    font-size: 10px;
+  }
+  .txtFrame1 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .flashFloodAlert,
+  .severeThunderstormWatch {
+    font-size: large;
+  }
+} */
+.flashFloodAlert,
+.textFrameGroupChild {
+  height: 40px;
+  position: relative;
+  z-index: 1;
+}
+.textFrameGroupChild {
+  width: 50px;
+}
+.flashFloodAlert {
+  font-size: 20px;
+  padding-top: 10px;
+  align-self: stretch;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.textFrame,
+.textFrameGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textFrame {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 606px;
+}
+.textFrameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 25px;
+}
+.rectangleFrameChild {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  z-index: 1;
+}
+.severeThunderstormWatch {
+  align-self: stretch;
+  height: 50px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameAlertGroup,
+.rectangleFrame,
+.textFrame1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textFrame1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 606px;
+}
+.frameAlertGroup,
+.rectangleFrame {
+  align-self: stretch;
+}
+.rectangleFrame {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 25px;
+}
+.frameAlertGroup {
+  flex-direction: column;
+  gap: var(--gap-smi);
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--color-white);
+  font-family: var(--font-cabin);
+}
+@media screen and (max-width: 1050px) {
+  .flashFloodAlert {
+    font-size: var(--font-size-5xl);
+  }
+  .textFrame {
+    min-width: 100%;
+  }
+  .severeThunderstormWatch {
+    font-size: var(--font-size-5xl);
+  }
+  .textFrame1 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .flashFloodAlert,
+  .severeThunderstormWatch {
+    font-size: var(--font-size-lg);
+  }
+}
