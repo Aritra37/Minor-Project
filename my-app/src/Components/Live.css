@@ -1,0 +1,457 @@
+/* .currentDisasters {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameChild,
+.frameHChild {
+  width: 538px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.frameHChild {
+  height: 301px;
+  border-radius: var(--br-3xl);
+  object-fit: cover;
+}
+.frameChild {
+  align-self: stretch;
+  border-radius: 0 0 var(--br-3xl) var(--br-3xl);
+  background-color: var(--color-gray-300);
+}
+.nepalEarthquake {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.nepalEarthquake1,
+.rectangleL {
+  position: absolute;
+  margin: 0 !important;
+}
+.rectangleL {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 0 var(--br-3xl) var(--br-3xl);
+  background-color: var(--color-gray-300);
+}
+.nepalEarthquake1 {
+  top: calc(50% - 21.5px);
+  left: calc(50% - 133px);
+  font-weight: 600;
+  z-index: 1;
+}
+.nepalEarthquakeParent,
+.rectangleParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.nepalEarthquakeParent {
+  padding: var(--padding-16xl);
+  box-sizing: border-box;
+  position: relative;
+  z-index: 2;
+}
+.rectangleParent {
+  border-radius: 0 0 var(--br-3xl) var(--br-3xl);
+  background-color: var(--color-gray-300);
+  z-index: 1;
+}
+.frameH,
+.rectangleOIcon {
+  height: 301px;
+  border-radius: var(--br-3xl);
+  max-width: 100%;
+} */
+.frameH {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+  /* background-image: url(../images/Rectangle1.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.rectangleOIcon {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.frameN {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frameItem {
+  height: 113px;
+  width: 538px;
+  position: relative;
+  border-radius: 0 0 var(--br-3xl) var(--br-3xl);
+  background-color: var(--color-gray-300);
+  display: none;
+  max-width: 100%;
+}
+.kedarnathFlashflood {
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  font-family: var(--font-cabin);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.rectangleGroup {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-16xl) var(--padding-xl) var(--padding-16xl)
+    var(--padding-5xl);
+  background-color: var(--color-gray-300);
+  align-self: stretch;
+  border-radius: 0 0 var(--br-3xl) var(--br-3xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+  margin-top: -113px;
+}
+.rectangleContainer:hover,
+.rectangleGroup:hover {
+  background-color: #004054;
+}
+.groupG,
+.groupM {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.groupM {
+  align-self: stretch;
+}
+.groupG {
+  flex: 1;
+  gap: var(--gap-19xl);
+  min-width: 351px;
+}
+.frameInner,
+.groupRChild {
+  width: 538px;
+  position: relative;
+  display: none;
+  max-width: 100%;
+}
+.groupRChild {
+  height: 301px;
+  border-radius: var(--br-3xl);
+  object-fit: cover;
+}
+.frameInner {
+  height: 113px;
+  border-radius: 0 0 var(--br-3xl) var(--br-3xl);
+  background-color: var(--color-gray-300);
+}
+.australiaForestfire {
+  position: relative;
+  font-size: var(--font-size-16xl);
+  font-weight: 600;
+  font-family: var(--font-cabin);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.groupR,
+.rectangleContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+}
+.rectangleContainer {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-16xl) var(--padding-2xl) var(--padding-16xl)
+    var(--padding-xl);
+  background-color: var(--color-gray-300);
+  border-radius: 0 0 var(--br-3xl) var(--br-3xl);
+  align-items: center;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.groupR {
+  border-radius: var(--br-3xl);
+  align-items: flex-end;
+  /* background-image: url(../images/Rectangle1.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 350px;
+  min-height: 301px;
+}
+.frameC,
+.textE,
+.textF {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textF {
+  flex: 1;
+  flex-direction: row;
+  gap: var(--gap-31xl);
+}
+.frameC,
+.textE {
+  align-self: stretch;
+}
+.textE {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-2xs);
+  box-sizing: border-box;
+  font-size: var(--font-size-16xl);
+  color: var(--color-white);
+  font-family: var(--font-cabin);
+}
+.frameC {
+  flex-direction: column;
+  gap: var(--gap-15xl);
+} 
+.textUChild {
+  width: 800px;
+  height: 400px;
+  position: relative;
+  /* padding-left: 50%; */
+  margin-left: 40%; 
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  background-color: #004054;
+  /* display: none; */
+  max-width: 100%;
+}
+.earlyWarningSystem {
+  position: absolute;
+  font-weight: 600;
+  font-size: 25px;
+  display: inline-block;
+  max-width: 100%;
+  margin-left: 25%;
+  margin-top: 50px;
+  color: white;
+}
+.coastalFloodWarning,
+.textFrameChild {
+  height: 50px;
+  margin-top: 10px;
+  float: left;
+  /* position: relative; */
+  z-index: 1;
+}
+.textFrameChild {
+  width: 50px;
+}
+.coastalFloodWarning {
+  align-self: stretch;
+  display: inline-block;
+  flex-shrink: 0;
+  /* margin-bottom: 50%; */
+}
+.textFrame1 {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 400px;
+}
+.alertFrameGroup,
+.textFrame,
+.textFrame1,
+.textU {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  margin-bottom: 3px;
+  
+}
+.textFrame {
+  display: flex;
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 25px;
+}
+.alertFrameGroup,
+.textU {
+  flex-direction: column;
+}
+.alertFrameGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-cabin);
+  position:absolute;
+  margin-top: 8%;
+  color: white;
+  margin-left: 28%;
+}
+.textU {
+  width: 1000px;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-darkslategray-200);
+  align-items: center;
+  padding: var(--padding-31xl) var(--padding-40xl) var(--padding-40xl)
+    var(--padding-43xl);
+  box-sizing: border-box;
+  gap: var(--gap-24xl);
+  color: var(--color-white);
+}
+.successStories {
+  position: relative;
+  font-weight: 600;
+}
+.frameA,
+.frameB,
+.textFrame2 {
+  display: flex;
+  justify-content: flex-start;
+}
+.textFrame2 {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-smi);
+}
+.frameA,
+.frameB {
+  max-width: 100%;
+}
+.frameB {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-60xl);
+}
+.frameA {
+  width: 1190px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xl) var(--padding-xs) var(--padding-xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-21xl);
+  color: var(--color-black);
+  font-family: var(--font-raleway);
+}
+@media screen and (max-width: 1125px) {
+  .textU {
+    padding-left: var(--padding-12xl);
+    padding-right: var(--padding-10xl);
+    box-sizing: border-box;
+  }
+  .frameB {
+    gap: 39px 79px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .currentDisasters {
+    font-size: var(--font-size-13xl);
+  }
+  .australiaForestfire,
+  .kedarnathFlashflood,
+  .nepalEarthquake,
+  .nepalEarthquake1 {
+    font-size: var(--font-size-9xl);
+  }
+  .groupR {
+    min-height: auto;
+  }
+  .textF {
+    flex-wrap: wrap;
+  }
+  .earlyWarningSystem {
+    font-size: var(--font-size-13xl);
+  }
+  .coastalFloodWarning {
+    font-size: var(--font-size-5xl);
+  }
+  .textFrame1 {
+    min-width: 100%;
+  }
+  .successStories {
+    font-size: var(--font-size-13xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .groupG {
+    gap: 19px 38px;
+  }
+  .textF {
+    gap: 50px 25px;
+  }
+  .frameC {
+    gap: 17px 34px;
+  }
+  .textU {
+    gap: 21px 43px;
+    padding-top: var(--padding-13xl);
+    padding-bottom: var(--padding-19xl);
+    box-sizing: border-box;
+  }
+  .frameB {
+    gap: 20px 79px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .currentDisasters {
+    font-size: var(--font-size-5xl);
+  }
+  .kedarnathFlashflood,
+  .nepalEarthquake,
+  .nepalEarthquake1 {
+    font-size: var(--font-size-2xl);
+  }
+  .groupG {
+    min-width: 100%;
+  }
+  .australiaForestfire {
+    font-size: var(--font-size-2xl);
+  }
+  .groupR {
+    min-width: 100%;
+  }
+  .earlyWarningSystem {
+    font-size: var(--font-size-5xl);
+  }
+  .coastalFloodWarning {
+    font-size: var(--font-size-lg);
+  }
+  .successStories {
+    font-size: var(--font-size-5xl);
+  }
+}
