@@ -1,0 +1,39 @@
+.FooterChild{
+    background-color: #004054;
+        /* justify-content: space-between; */
+        /* padding: 10px 20px 10px 20px; */
+        box-sizing: border-box;
+        z-index: 1000;
+        position: sticky;
+        /* gap: var(--gap-xl); */
+        text-align: left;
+        color: white;
+        height: 300px;
+        padding-right: 50px;
+        display: flex;
+}
+.Footer{
+    background-color: #004054;
+        /* justify-content: space-between; */
+        /* padding: 10px 20px 10px 20px; */
+        box-sizing: border-box;
+        z-index: 1000;
+        position: sticky;
+        /* gap: var(--gap-xl); */
+        text-align: right;
+        color: white;
+        padding-right: 50px;
+}
+.works{
+    display: flex;
+    margin-left: 60%;
+    justify-content: space-between;
+}
+.envelope{
+    margin-top: 50px ;
+    height: 30px;
+}
+.work{
+    padding-top: 50px;
+    padding-right: 50px;
+}
