@@ -8,6 +8,7 @@ import Success from "./Success";
 import image1 from "./Images/image1.png";
 import image2 from "./Images/image2.png";
 import image3 from "./Images/image3.png";
+import "./helpingHand.css";
 
 
 const HomePage = () => {
@@ -34,7 +35,7 @@ const HomePage = () => {
       <div className="volunteerNowGroup">
         <div className="volunteerNowGroupChild" />
         <input className="search" placeholder="Search" type="text" />
-        <img className="siteMapFrame" alt="" src={search} />
+        <img className="siteMapFrameHelp" alt="" src={search} />
       </div>
       
     </div>
@@ -93,6 +94,27 @@ Leo ultricies nibh ut massa. Nisl sit donec diam nam euismod senectus iaculis ph
  Eu lacus integer pulvinar."
                 image={image2}
                 />
+
+    <section className="siteMapHelp">
+      <div className="footerImageHelp">
+        <div className="footerImageChildHelp"/>
+        <div className="helpingHand ">Helping Hand</div>
+        <div className="loremIpsumTextHelp">
+          <button className="rectangleParentHelp">
+            <div className="frameChildHelp" />
+            <div className="donateNowHelp helpButton">Donate Now</div>
+          </button>
+          <button className="rectangleGroupHelp">
+            <div className="frameItemHelp" />
+            <div className="partnerNowHelp helpButton">Partner Now</div>
+          </button>
+          <button className="rectangleContainerHelp">
+            <div className="frameInnerHelp" />
+            <div className="volunteerNowHelp helpButton">Volunteer Now</div>
+          </button>
+        </div>
+      </div>
+    </section>
 
     </>
   );
