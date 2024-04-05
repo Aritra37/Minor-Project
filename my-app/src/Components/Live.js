@@ -1,29 +1,34 @@
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Live.css";
 import FrameAlertGroup from "./FrameAlertGroup";
+
 function Live() {
+  const [dataSet, setdataSet] = useState([])
+  useEffect(()=>{
+  const dataFet = async()=>{
+    const res = await fetch('https://newsapi.org/v2/top-headlines?q=earthquake&apiKey=f6608c409568422a994de82a29a5c257')
+    const result  = await res.json();
+    console.log(result.articles)
+    setdataSet(result.articles);
+    console.log(dataSet);
+  }
+  dataFet();
+  },[])
+
   return (
     <div className="textU" >
           <div className="textUChild" />
           <div className="earlyWarningSystem">Live News</div>
           <div className="alertFrameGroup">
-            <FrameAlertGroup
-              flashFloodAlertInEffectUn="Flash flood alert in effect until midnight for the Central Valley."
+           
+            {dataSet.map((data,key)=>{
+              return(
+                <FrameAlertGroup
+              flashFloodAlertInEffectUn={data.title}
             />
-            <FrameAlertGroup
-              flashFloodAlertInEffectUn="Severe thunderstorm watch until 8 PM for the Tri-City region."
-            />
-            <FrameAlertGroup
-              flashFloodAlertInEffectUn="Freezing rain likely overnight in New England."
-            />
-            <FrameAlertGroup
-              flashFloodAlertInEffectUn="Blizzard conditions expected in the Sierra Nevada mountains."
-            />
-            <FrameAlertGroup
-              flashFloodAlertInEffectUn="Coastal flood warning for low-lying areas along the Gulf
-              Coast."
-            />
+              );
+            })}
             
           </div>
         </div>
