@@ -6,12 +6,12 @@ const FrameAlertGroup = ({
   return (
     <div className="frameAlertGroup">
       <div className="textFrameGroup">
-        <img
+        {/* <img
           className="textFrameGroupChild"
           loading="lazy"
           alt=""
           src={thunder}
-        />
+        /> */}
         <div className="textFrame">
           <div className="flashFloodAlert">
             {flashFloodAlertInEffectUn}
