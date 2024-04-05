@@ -1,0 +1,442 @@
+.div,
+.nepalEarthquake {
+  position: relative;
+  z-index: 1;
+}
+.nepalEarthquake {
+    position: relative;
+    display: inline-block;
+    font-size: 42px;
+    padding-left: 110px;
+    font-family: "https://fonts.googleapis.com/css?family=Castoro";
+    color: white;
+}
+.div {
+  font-weight: 500;
+  color: white;
+  margin-bottom: 12px;
+}
+.frameWrapper,
+.nepalEarthquakeParent,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  margin-top: 10px;
+}
+.wrapper {
+  width: 488px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-raleway);
+}
+.frameWrapper,
+.nepalEarthquakeParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  width: 1160px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.loremIpsumDolor {
+  align-self: stretch;
+  height: 140px;
+  position: relative;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-raleway);
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-wrap: 2px;
+  flex-shrink: 0;
+  z-index: 1;
+  color: white;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-25xl);
+  max-width: 100%;
+}
+.frameChild {
+  width: 1128px;
+  height: 504px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  border: 3px solid var(--color-darkslategray-200);
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.liveUpdates {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+  font-size: 23px;
+  margin-bottom: 34%;
+}
+.liveUpdatesWrapper {
+    display: flex;
+    max-width: 100%;
+    margin-bottom: 3px;
+}
+.liveUpdatesWrapper{
+    width: 1000px;
+  height: 400px;
+  position: relative;
+  /* padding-left: 50%; */
+  margin-left: 12%; 
+  margin-top: 8%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  outline-style: solid;
+  color: #004054;
+  /* display: none; */
+  max-width: 100%;
+}
+.inputSplitterChild,
+.mouthWingMelted {
+  height: 50px;
+  position: relative;
+  z-index: 1;
+}
+.inputSplitterChild {
+  width: 50px;
+}
+.mouthWingMelted {
+  align-self: stretch;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.conditionTree {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+  min-width: 606px;
+  max-width: 100%;
+}
+.inputSplitter {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-6xl);
+}
+.frameContainer,
+.frameDiv,
+.inputSplitter,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameDiv {
+  position:absolute ;
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-smi);
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-cabin);
+  margin-top: 12%;
+  margin-left: 13%;
+  text-align: center;
+  color: #004054;
+  justify-content: center;
+}
+.frameContainer,
+.rectangleParent {
+  box-sizing: border-box;
+}
+.rectangleParent {
+  flex: 1;
+  border-radius: var(--br-3xl);
+  border: 3px solid var(--color-darkslategray-200);
+  flex-direction: column;
+  padding: var(--padding-30xl) var(--padding-32xl) var(--padding-28xl)
+    var(--padding-45xl);
+  gap: var(--gap-15xl);
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-5xs);
+}
+.image2Icon {
+  height: 1000px;
+  width: 1128px;
+  position: relative;
+  border-radius: var(--br-3xl);
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.distanceCalculator,
+.featureExtractor,
+.featureExtractor1,
+.matrixMultiplier,
+.treeBuilder {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  border-radius: 50%;
+  background-color: var(--color-red);
+  width: 35px;
+  height: 35px;
+  z-index: 1;
+}
+.distanceCalculator,
+.featureExtractor1,
+.matrixMultiplier,
+.treeBuilder {
+  top: 17px;
+  left: 107px;
+  width: 29px;
+  height: 29px;
+}
+.distanceCalculator,
+.featureExtractor1,
+.treeBuilder {
+  top: 65px;
+  left: 98px;
+  width: 42px;
+  height: 42px;
+}
+.featureExtractor1,
+.treeBuilder {
+  top: 17px;
+  left: 24px;
+  background-color: var(--color-deepskyblue);
+  width: 35px;
+  height: 35px;
+  z-index: 2;
+}
+.treeBuilder {
+  top: 32px;
+  left: 112px;
+  width: 47px;
+  height: 47px;
+}
+.queueManager,
+.queueManager {
+  top: 82px;
+  background-color: var(--color-orangered-200);
+  width: 56px;
+  height: 56px;
+  z-index: 2;
+}
+.signalProcessorIcon {
+    position: relative;
+    width: 900px;
+    height: 400px;
+    justify-content: center;
+    right: 200%;
+}
+.featureExtractorIcon,
+.featureExtractorIcon1 {
+  position: absolute;
+  top: 21px;
+  left: 37px;
+  width: 10px;
+  height: 13.8px;
+  z-index: 3;
+}
+.featureExtractorIcon1 {
+  top: 11px;
+  left: 71px;
+  z-index: 4;
+}
+.featureExtractorIcon2,
+.featureExtractorIcon3,
+.featureExtractorIcon4 {
+  position: absolute;
+  top: 21px;
+  left: 117px;
+  width: 10px;
+  height: 13.8px;
+  z-index: 3;
+}
+.featureExtractorIcon3,
+.featureExtractorIcon4 {
+  top: 46px;
+  left: 131px;
+}
+.featureExtractorIcon4 {
+  top: 75px;
+  left: 111px;
+}
+.featureExtractorIcon5,
+.featureExtractorIcon6 {
+  position: absolute;
+  top: 100px;
+  left: 107px;
+  width: 10px;
+  height: 13.8px;
+  z-index: 4;
+}
+.featureExtractorIcon6 {
+  left: 76px;
+  z-index: 3;
+}
+.filterBank {
+  height: 138px;
+  width: 159px;
+  position: relative;
+}
+.errorHandler {
+  align-self: stretch;
+  height: 300px;
+  border-radius: var(--br-3xl);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-139xl) var(--padding-xl) var(--padding-139xl)
+    var(--padding-12xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  /* background-image: url(/public/image-2@2x.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.errorHandler,
+.frameGroup,
+.nullValueInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+  margin-bottom: 5%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-40xl);
+}
+.nullValueInner {
+  width: 1192px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-21xl);
+  color: var(--color-darkslategray-200);
+  font-family: var(--font-raleway);
+}
+.booleanValue,
+.nullValue {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.nullValue {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-146xl);
+}
+.booleanValue {
+  width: 1266px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-12xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-46xl);
+  color: var(--color-white);
+  font-family: var(--font-castoro);
+  /* background-image: url(./Images/NepalPage.png); */
+}
+.image1Icon {
+    height: 64%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 70%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+@media screen and (max-width: 1200px) {
+  .rectangleParent {
+    padding-left: var(--padding-13xl);
+    padding-right: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+  .nullValue {
+    gap: 82px 165px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .nepalEarthquake {
+    font-size: var(--font-size-33xl);
+  }
+  .div {
+    font-size: var(--font-size-13xl);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-5xl);
+  }
+  .liveUpdates {
+    font-size: var(--font-size-13xl);
+  }
+  .mouthWingMelted {
+    font-size: var(--font-size-5xl);
+  }
+  .conditionTree {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .frameParent {
+    gap: 22px 44px;
+  }
+  .rectangleParent {
+    gap: 17px 34px;
+  }
+  .frameGroup {
+    gap: 29px 59px;
+  }
+  .nullValue {
+    gap: 41px 165px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .nepalEarthquake {
+    font-size: var(--font-size-20xl);
+  }
+  .div {
+    font-size: var(--font-size-5xl);
+  }
+  .loremIpsumDolor {
+    font-size: var(--font-size-lg);
+  }
+  .liveUpdates {
+    font-size: var(--font-size-5xl);
+  }
+  .mouthWingMelted {
+    font-size: var(--font-size-lg);
+  }
+  .nullValue {
+    gap: 21px 165px;
+  }
+}
