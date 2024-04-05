@@ -24,7 +24,7 @@ function Live() {
            
             {dataSet.map((data,key)=>{
               return(
-                <marquee behaviour="scroll" direction="down" scrollamount="1.9" className="scrolling">
+                <marquee behaviour="scroll" direction="down" scrollamount="2" className="scrolling">
                   {data.title}
                 </marquee>
               );
