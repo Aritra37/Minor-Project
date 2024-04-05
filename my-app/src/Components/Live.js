@@ -24,9 +24,9 @@ function Live() {
            
             {dataSet.map((data,key)=>{
               return(
-                <FrameAlertGroup
-              flashFloodAlertInEffectUn={data.title}
-            />
+                <marquee behaviour="scroll" direction="down" scrollamount="2" className="scrolling">
+                  {data.title}
+                </marquee>
               );
             })}
             

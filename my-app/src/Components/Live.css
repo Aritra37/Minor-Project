@@ -259,7 +259,7 @@
   display: inline-block;
   max-width: 100%;
   margin-left: 25%;
-  margin-top: 50px;
+  margin-top: 30px;
   color: white;
 }
 .coastalFloodWarning,
@@ -294,7 +294,7 @@
   display: flex;
   justify-content: flex-start;
   max-width: 100%;
-  margin-bottom: 3px;
+  /* margin-bottom: 3px; */
   
 }
 .textFrame {
@@ -313,12 +313,12 @@
   align-self: stretch;
   align-items: flex-start;
   gap: var(--gap-smi);
-  font-size: var(--font-size-11xl);
+  font-size: 10px;
   font-family: var(--font-cabin);
   position:absolute;
-  margin-top: 8%;
+  margin-top: 6%;
   color: white;
-  margin-left: 28%;
+  margin-left: 24%;
 }
 .textU {
   width: 1000px;
@@ -454,4 +454,14 @@
   .successStories {
     font-size: var(--font-size-5xl);
   }
+}
+
+.scrolling{
+  font-size: 15px;
+  width:90%;
+  height:30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
 }
