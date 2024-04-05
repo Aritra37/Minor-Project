@@ -1,0 +1,189 @@
+.functionComposerIcon {
+    height: 50px;
+    width: 35 px;
+    position: relative;
+    right: 100%;
+    margin-top: 7px;
+    }
+    .falamkhaniProvince {
+      font-weight: 500;
+      position: relative;
+      right: 60%;
+      margin-top: 12px;
+    }
+    .parameterTuner,
+    .patternMatcher,
+    .transformationChain {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: relative;
+      right: 45%;
+    }
+    .parameterTuner {
+      flex-direction: column;
+      padding: var(--padding-base) 0 0;
+    }
+    .patternMatcher,
+    .transformationChain {
+      gap: var(--gap-9xs);
+      flex-shrink: 0;
+    }
+    .patternMatcher {
+      height: 63px;
+      padding: 0 var(--padding-11xs);
+      box-sizing: border-box;
+      max-width: 100%;
+    }
+    .estimatedAffected {
+      position: relative;
+      right: 200%;
+      font-weight: 600;
+      display: flex;
+      white-space: nowrap;
+    }
+    .indexFinder {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      max-width: 100%;
+    }
+    .severityHigh {
+      width: 216px;
+      position: relative;
+      font-weight: 600;
+      display: inline-block;
+      box-sizing: border-box;
+      left: 160%;
+      bottom: 10%;
+      margin-bottom: 20%;
+      color: red;
+    }
+    .dataDeserializer {
+      align-self: stretch;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 0 var(--padding-5xs);
+    }
+    .estimatedRescued {
+      align-self: stretch;
+      position: relative;
+      color: var(--color-black);
+      white-space: nowrap;
+      left: 80%;
+      font-weight: 600;
+      align-items:flex-end;
+      margin-right: 30%;
+    }
+    .dataSerializer {
+      width: 388px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      gap: var(--gap-2xs);
+      max-width: 100%;
+      color: var(--color-orangered-100);
+    }
+    .mergerJoiner {
+      align-self: stretch;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-between;
+      max-width: 100%;
+      gap: var(--gap-xl);
+    }
+    .activeOrganizationsIn {
+      width: 425px;
+      position: relative;
+      display: inline-block;
+      white-space: nowrap;
+      font-weight: 600;
+    }
+    .dataMapper {
+      align-self: stretch;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+    .volunteer {
+      width: 141px;
+      position: relative;
+      font-weight: 600;
+      color: #004054;
+      left: 250%;
+      margin-top: 6%;
+    }
+    .dataFilter {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-start;
+      max-width: 100%;
+    }
+    .dataPostprocessor {
+      width: 768px;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 0 var(--padding-5xs);
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .dataPostprocessor,
+    .sorter,
+    .summator {
+      display: flex;
+      max-width: 100%;
+    }
+    .summator {
+      flex: 1;
+      flex-direction: column;
+      align-items: flex-end;
+      justify-content: flex-start;
+    }
+    .sorter {
+      align-self: stretch;
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: flex-end;
+      padding: 0 var(--padding-mini) 0 var(--padding-2xs);
+      box-sizing: border-box;
+      text-align: left;
+      font-size: var(--font-size-11xl);
+      color: var(--color-black);
+      font-family: var(--font-cabin);
+    }
+    @media screen and (max-width: 1050px) {
+      .estimatedAffected,
+      .estimatedRescued,
+      .falamkhaniProvince,
+      .severityHigh {
+        font-size: var(--font-size-5xl);
+      }
+      .mergerJoiner {
+        flex-wrap: wrap;
+      }
+      .activeOrganizationsIn {
+        font-size: var(--font-size-5xl);
+      }
+    }
+    @media screen and (max-width: 450px) {
+      .activeOrganizationsIn,
+      .estimatedAffected,
+      .estimatedRescued,
+      .falamkhaniProvince,
+      .severityHigh {
+        font-size: var(--font-size-lg);
+      }
+      .volunteer {
+        font-size: var(--font-size-xl);
+      }
+    }
+    
