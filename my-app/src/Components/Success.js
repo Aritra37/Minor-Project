@@ -27,7 +27,7 @@ const Success = ({
             </div>
           </div>
         </div>
-        {id%2!=0? <img
+        {id%2!==0? <img
             className="helpingHandFrameChild"
             loading="lazy"
             alt=""
