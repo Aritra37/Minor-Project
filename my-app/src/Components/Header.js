@@ -1,6 +1,10 @@
 import "./Header.css";
+import logo from "./Images/logo.png";
 
 const Header = () => {
+  const handleLogo=()=>{
+    window.location.href="/"
+  }
   return (
     <header className="applyForAssistanceText">
       <div className="applyForAssistanceTextChild" />
@@ -8,7 +12,8 @@ const Header = () => {
         className="imageIcon"
         loading="lazy"
         alt=""
-        src="/image.svg"
+        src={logo}
+        onClick={() => handleLogo()}
       />
       <div className="searchText">
         <div
