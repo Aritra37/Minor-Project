@@ -1,3 +1,4 @@
+// import { useHistory } from 'react-router-dom';
 import "./HomePage.css";
 import kid from "./kid.jpg";
 import search from "./search.jpg";
@@ -12,11 +13,15 @@ import "./helpingHand.css";
 
 
 const HomePage = () => {
+  const handleClick = (route) => {
+    window.location.href = route; 
+}
+
   return (
     <>
     <div className="millionDonationCollectedFra">
       <div className="activeVolunteersFrame">
-        <img className="image1Icon" alt="" src={kid} />
+        <img className="image1IconDisaster" alt="" src={kid} />
         <div className="millionRectangleFrame">
           <div className="flashfloodAlertFrame">
             <div className="freezingText">25000+</div>
@@ -35,7 +40,7 @@ const HomePage = () => {
       <div className="volunteerNowGroup">
         <div className="volunteerNowGroupChild" />
         <input className="search" placeholder="Search" type="text" />
-        <img className="siteMapFrameHelp" alt="" src={search} />
+        <img className="siteMapFrameHelpSearch" alt="" src={search} />
       </div>
       
     </div>
@@ -43,7 +48,8 @@ const HomePage = () => {
       <div className="currDisaster">
       {Frame.map((item,index) => {
          return (<>
-        <div className="currG">
+        {/* <div className="currG" onClick={openPage(item)}> */}
+        <div className="currG" onClick={() => handleClick(item.route)}>
                 <div className="currH">
                   <img
                     className="currHChild"
@@ -115,7 +121,6 @@ Leo ultricies nibh ut massa. Nisl sit donec diam nam euismod senectus iaculis ph
         </div>
       </div>
     </section>
-
     </>
   );
 };
