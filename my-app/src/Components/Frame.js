@@ -5,17 +5,20 @@ const Frame = [
     {
         id:1,
         img:Rec1,
-        info:"Nepal Earthquake"
+        info:"Nepal Earthquake",
+        route: "/nepal"
     },
     {
         id:2,
         img:Rec2,
-        info:"Australia Forestfire"
+        info:"Australia Forestfire",
+        route: "/australia"
     },
     {
         id:3,
         img:Rec3,
-        info:"Kedarnath Flashflood"
+        info:"Afghanistan Floods",
+        route: "/afghanistan"
     }
 
 ]
