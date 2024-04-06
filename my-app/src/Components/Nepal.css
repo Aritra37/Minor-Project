@@ -1,9 +1,9 @@
 .div,
-.nepalEarthquake {
+.nepalEarthquakeImage {
   position: relative;
   z-index: 1;
 }
-.nepalEarthquake {
+.nepalEarthquakeImage {
     position: relative;
     display: inline-block;
     font-size: 42px;
@@ -16,8 +16,11 @@
   color: white;
   margin-bottom: 12px;
 }
+.helpingDiv{
+  margin-top: 150px;
+}
 .frameWrapper,
-.nepalEarthquakeParent,
+.nepalEarthquakeParentImage,
 .wrapper {
   display: flex;
   align-items: flex-start;
@@ -34,7 +37,7 @@
   font-family: var(--font-raleway);
 }
 .frameWrapper,
-.nepalEarthquakeParent {
+.nepalEarthquakeParentImage {
   flex-direction: column;
   justify-content: flex-start;
 }
@@ -366,7 +369,7 @@
     width: 100%;
     position: absolute;
     margin: 0 !important;
-    top: 0;
+    top: 60px;
     right: 0;
     bottom: 0;
     left: 0;

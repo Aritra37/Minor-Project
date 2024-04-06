@@ -1,5 +1,5 @@
 
-import React, { useEffect, useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import "./Live.css";
 import FrameAlertGroup from "./FrameAlertGroup";
 
@@ -24,7 +24,7 @@ function Live() {
            
             {dataSet.map((data,key)=>{
               return(
-                <marquee behaviour="scroll" direction="down" scrollamount="2" className="scrolling">
+                <marquee behaviour="scroll" direction="down" scrollamount="1" className="scrolling">
                   {data.title}
                 </marquee>
               );
