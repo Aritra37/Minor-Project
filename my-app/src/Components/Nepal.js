@@ -3,15 +3,21 @@ import MapText from "./MapText.js";
 import NepalPage from './Images/NepalPage.png';
 import Map from './Images/Map.png';
 import './Nepal.css';
+import Helping from "./HelpingHand.js";
+import Header from "./Header";
+import Footer from "./Footer";
+import Places from "./Places.js";
 const Nepal = () => {
   return (
+    <>
+         <Header />
     <div className="booleanValue">
       <div className="nullValue">
         <div className="frameParent">
           <div className="frameWrapper">
-            <div className="nepalEarthquakeParent">
+            <div className="nepalEarthquakeParentImage">
                 <img className="image1Icon" alt="" src={NepalPage} /> 
-              <h1 className="nepalEarthquake">Nepal Earthquake</h1>
+              <h1 className="nepalEarthquakeImage">Nepal Earthquake</h1>
               <div className="wrapper">
                 <div className="div">02.03.2019</div>
               </div>
@@ -63,13 +69,24 @@ const Nepal = () => {
                 <div className="MapText">
                     <MapText/>
                 </div>
+                
               </div>
+              
             </div>
+            
           </div>
+          
         </div>
+        
       </div>
+      
     </div>
-  );
+    <div className="helpingDiv">
+    <Helping />
+    </div>
+    <Footer />
+    </>
+  )
 };
 
 export default Nepal;
