@@ -1,5 +1,5 @@
 .loremForestfire,
-.loremIpsumDolor {
+.loremIpsumDolorOdd {
   height: 41px;
   position: relative;
   display: inline-block;
@@ -16,7 +16,7 @@
     width: 200px;
     font-size: 25px;
 }
-.loremIpsumDolor {
+.loremIpsumDolorOdd {
   height: 180px;
   width: 300px;
   flex-shrink: 0;
@@ -109,7 +109,7 @@
   .loremForestfire {
     font-size: var(--font-size-9xl);
   }
-  .loremIpsumDolor {
+  .loremIpsumDolorOdd {
     font-size: var(--font-size-5xl);
   }
   .helpingHandFrameChild {
@@ -128,7 +128,7 @@
   .loremForestfire {
     font-size: var(--font-size-2xl);
   }
-  .loremIpsumDolor {
+  .loremIpsumDolorOdd {
     font-size: var(--font-size-lg);
   }
   .successtextFrame1 {

@@ -21,7 +21,7 @@ const Success = ({
           <div className="groupFrame">
             <b className={id%2===0? `loremForestfireEven`:`loremForestfire`}>{heading}</b>
             <div className="currentDisaster">
-              <div className= {id%2===0? `loremIpsumDolorEven`:`loremIpsumDolor`}>
+              <div className= {id%2===0? `loremIpsumDolorEven`:`loremIpsumDolorOdd`}>
                 {text}
               </div>
             </div>
