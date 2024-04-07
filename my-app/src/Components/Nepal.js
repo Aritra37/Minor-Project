@@ -1,12 +1,10 @@
 import FrameComponent1 from "./FrameComponent1.js";
 import MapText from "./MapText.js";
 import NepalPage from './Images/NepalPage.png';
-import Map from './Images/Map.png';
 import './Nepal.css';
 import Helping from "./HelpingHand.js";
 import Header from "./Header";
 import Footer from "./Footer";
-import Places from "./Places.js";
 const Nepal = () => {
   return (
     <>
@@ -60,26 +58,28 @@ const Nepal = () => {
                 <div className="featureExtractor1" />
                 <div className="treeBuilder" />
                 <div className="queueManager" />
-                <img
-                  className="signalProcessorIcon"
-                  loading="lazy"
-                  alt=""
-                  src={Map}
-                />
+                <div>
+                <div className="signalProcessorIcon">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5161463.063027199!2d78.83052212314534!3d28.304607086358033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995e8c77d2e68cf%3A0x34a29abcd0cc86de!2sNepal!5e1!3m2!1sen!2sin!4v1712514013813!5m2!1sen!2sin"
+                    width="900"
+                    height="450"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title="Google Maps"
+                ></iframe>
+                </div>
+                </div>
                 <div className="MapText">
                     <MapText/>
                 </div>
-                
               </div>
-              
             </div>
-            
           </div>
-          
         </div>
-        
       </div>
-      
     </div>
     <div className="helpingDiv">
     <Helping />
